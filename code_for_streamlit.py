@@ -5,6 +5,7 @@ import numpy as np
 
 # Load the trained model
 model = 'model1.h5'
+model = load_model(model)
 
 # Function to predict gender from image
 def male_or_female(img_path, model):
