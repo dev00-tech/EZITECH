@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load the trained model
-model = load_model('D:\\ezitech\\model1.h5')
+model = 'model1.h5'
 
 # Function to predict gender from image
 def male_or_female(img_path, model):
